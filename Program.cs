@@ -45,12 +45,12 @@
 // else Console.WriteLine($"Число {num} не четное");
 
 //Четвертая задача
-Console.Write("Введите число ");
-int num = Convert.ToInt32(Console.ReadLine());
-for(int i = 1 ; i <= num ; i++)
-{
-    if(i % 2 == 0)
-    {
-        Console.WriteLine($"Число {i} четное");    
-    }   
-}
+// Console.Write("Введите число ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// for(int i = 1 ; i <= num ; i++)
+// {
+//     if(i % 2 == 0)
+//     {
+//         Console.WriteLine($"Число {i} четное");    
+//     }   
+// }
