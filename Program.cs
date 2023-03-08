@@ -36,10 +36,21 @@
 // }
 
 //Третья задача
+// Console.Write("Введите число ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// if(num % 2 == 0)
+// {
+//     Console.WriteLine($"Число {num} четное");    
+// }
+// else Console.WriteLine($"Число {num} не четное");
+
+//Четвертая задача
 Console.Write("Введите число ");
 int num = Convert.ToInt32(Console.ReadLine());
-if(num % 2 == 0)
+for(int i = 1 ; i <= num ; i++)
 {
-    Console.WriteLine($"Число {num} четное");    
+    if(i % 2 == 0)
+    {
+        Console.WriteLine($"Число {i} четное");    
+    }   
 }
-else Console.WriteLine($"Число {num} не четное");
